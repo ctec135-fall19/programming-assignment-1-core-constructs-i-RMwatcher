@@ -25,22 +25,6 @@ namespace Prob1
 {
     class Program
     {
-        /// <summary>
-        /// Inputs, outputs and behaviors
-        /// </summary>
-        /// <remarks>
-        /// Input includes strings, integers and booleans.
-        /// Output includes strings, integers with decimal points, special characters like dollar signs and numbers with large values.
-        /// Behavior involves outputting values from variables I made with value along with two methods that show the max and the min value of a data type. Also have string format characters to format data types to have them appear a certain way.
-        /// </remarks>
-        public string summary
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
         static void Main(string[] args)
         {
             #region variable declarations 
@@ -81,7 +65,6 @@ namespace Prob1
                 Console.WriteLine(@"Ninth Variable Type 'decimal' value is: {0}", MyDecimal);
                 Console.WriteLine(@"Tenth Variable Type 'string' value is: {0}", MyString);
                 Console.WriteLine(@"Last Variable Type 'object' value is: {0}", MyObject);
-
             #endregion
 
             #region Max/Min values
